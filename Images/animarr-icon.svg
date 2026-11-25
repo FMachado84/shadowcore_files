@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b1838"/>
+      <stop offset="1" stop-color="#140c1c"/>
+    </linearGradient>
+    <radialGradient id="petal" gradientUnits="userSpaceOnUse" cx="100" cy="100" r="78">
+      <stop offset="0" stop-color="#ffd1e4"/>
+      <stop offset="0.45" stop-color="#ff86b8"/>
+      <stop offset="1" stop-color="#ff3d8b"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="44" fill="url(#bg)"/>
+  <g fill="url(#petal)" stroke="#1f1229" stroke-width="3.5" stroke-linejoin="round">
+    <path d="M100,104 C80,92 66,72 71,50 C74,37 82,29 90,26 L100,39 L110,26 C118,29 126,37 129,50 C134,72 120,92 100,104 Z" transform="rotate(0 100 100)"/>
+    <path d="M100,104 C80,92 66,72 71,50 C74,37 82,29 90,26 L100,39 L110,26 C118,29 126,37 129,50 C134,72 120,92 100,104 Z" transform="rotate(72 100 100)"/>
+    <path d="M100,104 C80,92 66,72 71,50 C74,37 82,29 90,26 L100,39 L110,26 C118,29 126,37 129,50 C134,72 120,92 100,104 Z" transform="rotate(144 100 100)"/>
+    <path d="M100,104 C80,92 66,72 71,50 C74,37 82,29 90,26 L100,39 L110,26 C118,29 126,37 129,50 C134,72 120,92 100,104 Z" transform="rotate(216 100 100)"/>
+    <path d="M100,104 C80,92 66,72 71,50 C74,37 82,29 90,26 L100,39 L110,26 C118,29 126,37 129,50 C134,72 120,92 100,104 Z" transform="rotate(288 100 100)"/>
+  </g>
+  <circle cx="100" cy="100" r="21" fill="#ffffff" stroke="#1f1229" stroke-width="3.5"/>
+  <path d="M93.5,89 L93.5,111 L112,100 Z" fill="#2b1838" stroke="#2b1838" stroke-width="2" stroke-linejoin="round"/>
+</svg>
